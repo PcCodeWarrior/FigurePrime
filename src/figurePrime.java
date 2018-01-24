@@ -2,7 +2,7 @@ public class figurePrime {
 
 
     public static void main(String[] args) {
-        for (int num = 2; num < 100; num++) {
+        for (int num = 2; num < 200; num++) {
             if (isPrime(num))
                 System.out.println(num + " is a prime number");
         }
